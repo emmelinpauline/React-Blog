@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+body {
+  background: #fd746c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff9068, #fd746c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff9068, #fd746c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.Header-menu {
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+  justify-content: space-between;
+  list-style: none;
+
+}
+.Header-menu a {
+  text-decoration: none;
+  color: blueviolet;
+  font-weight: 900;
+
+}
+
+.container {
+  margin: 0 auto;
+  width: 70em;
+  padding: 0.5em 2em;
+  background: #00bac7;
+  border-radius: 4px;
+}
+
+h1 {
+  color: #fff;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
